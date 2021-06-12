@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* (SE1A 2200228、トゥムル　ウイルス) */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background-image: url(/web/images/35/bg.jpg);
+    width: 100%;
+
+}
+
+.bgImage {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+#viewposter {
+    align-items: center;
+}
+
+#viewposter {
+    padding-top: 30px;
+    margin-left: 10%;
+}
+
+.viewposter {
+    height: 500px;
+    width: 320px;
+    position: absolute;
+}
+
+.poster-table {
+    text-align: left;
+}
+
+
+table {
+    color: aliceblue;
+    position: absolute;
+    margin-left: 350px;
+    width: 50%;
+
+}
+
+.trailer-text {
+    color: aliceblue;
+    margin-top: 160px;
+    margin-left: 240px;
+    text-align: center;
+}
+
+.traler-video {
+    margin-left: 500px;
+}
+
+.moreLikeText {
+    color: aliceblue;
+    margin-left: 10%;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+#poster {
+    list-style: none;
+
+}
